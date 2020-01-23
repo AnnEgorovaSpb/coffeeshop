@@ -14,19 +14,26 @@
     <form action="contacts.html" method="post">
         <fieldset>
             <legend>Напишите нам</legend>
+            
             <label for="name">Имя</label><br>
             <input type="text" id="name" name="username" placeholder="Ваше имя"><br><br>
+            
             <label for="email">Email</label><br>
             <input type="email" id="email" name="email" placeholder="email@mail.ru"><br><br>
+            
             <label for="topic">Тема обращения</label><br>
             <select name="topic" id="topic">
                 <option value="help-us">Помогите нам стать лучше</option>
                 <option value="problem">Проблемы с заказом</option>
                 <option value="other">Другое</option>
             </select><br><br>
-            <textarea name="text" cols="30" rows="10" placeholder="Введите Ваше сообщение здесь"></textarea><br><br>
+            
+            <textarea name="text" cols="30" rows="10" placeholder="Введите Ваше сообщение здесь">
+            </textarea><br><br>
+            
             <label for="news">Подписаться на рассылку</label>
             <input type="checkbox" name="getNews" id="news" checked><br><br>
+            
             <input type="submit" value="Отправить">
             <input type="reset" value="Сброс">
         </fieldset>
