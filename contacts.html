@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>CoffeeShop</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="catalog.html">Каталог</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
+    <ul class="menu">
+        <li class="menu-item">
+        <a class="menu-link" href="index.html">Главная</a>
+        </li>
+        <li class="menu-item">
+        <a class="menu-link" href="catalog.html">Каталог</a>
+        </li>
+        <li class="menu-item">
+        <a class="menu-link" href="contacts.html">Контакты</a>
+        </li>
     </ul>
     <hr>
     <form action="contacts.html" method="post">
@@ -28,8 +35,7 @@
                 <option value="other">Другое</option>
             </select><br><br>
             
-            <textarea name="text" cols="30" rows="10" placeholder="Введите Ваше сообщение здесь">
-            </textarea><br><br>
+            <textarea name="text" cols="30" rows="10" placeholder="Введите Ваше сообщение здесь" maxlength="1000"></textarea><br><br>
             
             <label for="news">Подписаться на рассылку</label>
             <input type="checkbox" name="getNews" id="news" checked><br><br>

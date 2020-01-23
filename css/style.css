@@ -1,0 +1,70 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #2B150D;
+    font-weight: bold;
+    line-height: 20px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.product-img {
+    outline: 4px solid #A9A9A9;
+}
+
+.caption {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.short-desc {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.full-desc {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.product-list {
+    list-style-image: url('../images/marker.png');
+    list-style-position: inside;
+    font-size: 18px;
+    color: #322723;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 345px;
+    height: 25px;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border-radius: 5px;
+    color: #2B150D;
+    font-size: 18px;
+    border: 1px solid #576161;
+    text-indent: 10px;
+}
+
