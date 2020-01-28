@@ -10,12 +10,20 @@ body {
     text-decoration: none;
     color: #2B150D;
     font-weight: bold;
-    line-height: 25px;
-    font-size: 20px;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.menu-link:hover {
+    color: #955C47;
 }
 
 .product-img {
     outline: 4px solid #A9A9A9;
+}
+
+.product-img:hover {
+    outline: none;
 }
 
 .caption {
@@ -40,11 +48,11 @@ body {
     text-align: left;
 }
 
-.product-list {
-    list-style-image: url('../images/marker.png');
-    list-style-position: inside;
-    font-size: 18px;
-    color: #322723;
+.full-desc:first-letter {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    color: #471515;
 }
 
 input[type="text"],
@@ -65,5 +73,35 @@ textarea {
     font-size: 18px;
     border: 1px solid #576161;
     text-indent: 10px;
+    outline: none;
+    text-transform: capitalize;
 }
 
+input[type="email"]:focus {
+    background-color: #707070;
+    color: #3a3a3a;
+}
+
+.table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,
+td {
+    border: 1px solid black;
+}
+
+th {
+    height: 40px;
+    color: #2B150D;
+    background-color: #cca293;
+}
+
+tr:nth-child(3) {
+    background-color: #aa9c9c;
+}
+
+.footer {
+    background-color: #a1a1a1;
+}
